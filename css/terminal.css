@@ -1,0 +1,64 @@
+html {
+	height: 100%;
+	background-color: black;
+}
+div.console { 
+	font-size: 14px;
+	margin-right: 1em;
+	word-wrap: break-word;
+}
+div.console div.jquery-console-inner { 
+	width: 100%;
+	height: 95vh; 
+	background: black;
+	padding: 0.5em;
+   	overflow: auto;
+}
+div.console div.jquery-console-prompt-box { 
+	color: #fff; 
+	font-family: monospace; 
+}
+div.console div.jquery-console-focus span.jquery-console-cursor { 
+	background: #fefefe; 
+	color: #333; 
+	font-weight: bold;
+}
+div.console div.jquery-console-message-error {	
+	color: #ef0505; 
+	font-family: monospace; 
+	font-weight: bold;
+   	padding: 0.2em; 
+}
+div.console div.jquery-console-message-value { 
+	color: #1ad027; 
+	font-family: monospace;
+   	padding: 0.1em; 
+}
+div.console div.jquery-console-message-type { 
+	color: #52666f; 
+	font-family: monospace;
+   	padding: 0.1em; 
+}
+div.console span.jquery-console-prompt-label { 
+	font-weight: bold;
+	color: red;
+}
+div.console div.jquery-console-welcome {
+	font-size: 12px;
+	padding: 0.1em;
+	font-family: monospace; 
+	color: #bbb;
+}
+div.console div.jquery-console-message-value p.heading {
+	text-decoration: underline;
+	font-weight: bold;
+	color: white;
+}
+div.console div.jquery-console-message-value span.list-heading {
+	text-decoration: underline;
+	color: white;
+}
+.help-table{
+	color: white;
+	padding-left: 2em;
+}

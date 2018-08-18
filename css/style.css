@@ -1,0 +1,52 @@
+.main-bgcolor{
+	background-color: black !important
+}
+
+.top-nav-collapse {
+    background-color: black !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+.pt-30 {
+  padding-top: 30rem !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: black !important;
+    } 
+}
+h1 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+}
+
+@font-face { 
+	font-family: grutch; 
+	src: url('../fonts/GrutchShaded.ttf') format('truetype');
+}
+
+@font-face { 
+	font-family: zallman; 
+	src: url('../fonts/ZallmanCaps.TTF') format('truetype');
+}
+
+@font-face {
+	font-family: kraft;
+	src: url('../fonts/KraftNineDEMO.ttf') format('truetype');
+}
