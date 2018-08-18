@@ -16,7 +16,19 @@ terminal.about =
 terminal.profile = 
 "<div class='jquery-console-message jquery-console-message-value'>"+
   "<p class='heading'>Profile:</p>"+
-  "<p>There is nothing in this section</p>"+
+  "<p>There is nothing in this section, execept for the links.</p>"+
+  "<ul>"+
+    "<li><span class='list-heading'>Hackerrank Profile:</span> "+
+    "<a href='https://www.hackerrank.com/bhishmapitamah' target='ashutosh_hackerrank'>Hackerrank</a></li>"+
+    "<li><span class='list-heading'>Codechef Profile:</span> "+
+    "<a href='https://www.codechef.com/users/ashutoshpandey' target='ashutosh_codechef'>Codechef</a></li>"+
+    "<li><span class='list-heading'>Facebook Profile:</span> "+
+    "<a href='https://www.facebook.com/profile.php?id=100005883821358' target='ashutosh_facebook'>Facebook</a></li>"+
+    "<li><span class='list-heading'>Github Profile:</span> "+
+    "<a href='https://github.com/bhishmapitamah'>Github</a></li>"+
+    "<li><span class='list-heading'>Linkedin Profile:</span> "+
+    "<a href='https://www.linkedin.com/in/pandey-ashutosh' target='ashutosh_linkedin'>Linkedin</a></li>"+
+  "</ul>"+
 "</div>";
 
 // Projects 
